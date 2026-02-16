@@ -23,18 +23,4 @@ To scale this system for production use:
 9. **Frontend Optimization**: Use code splitting, lazy loading, and CDN for static assets to reduce bundle size and improve performance
 10. **Rate Limiting**: Add API rate limiting to prevent abuse and ensure fair resource allocation
 
-## Technology Choices
 
-### Backend
-- **Java 21**: Latest LTS version with modern language features (Records, Pattern Matching)
-- **Spring Boot 3.x**: Jakarta EE namespace for future compatibility
-- **Liquibase**: Database version control and reproducible schema migrations
-- **H2 PostgreSQL Mode**: Development simplicity while maintaining production SQL compatibility
-
-### Frontend
-- **Vite**: Fast development server and optimized production builds
-- **TypeScript**: Type safety and better IDE support
-- **RTK Query**: Eliminates boilerplate for data fetching, caching, and synchronization
-- **Material UI**: Professional component library with accessibility built-in
-- **Tailwind CSS**: Utility-first CSS for rapid UI development without conflicting with MUI
-```
